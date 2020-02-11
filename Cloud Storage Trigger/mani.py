@@ -26,7 +26,7 @@ def CreateBucket(data, context):
     
     for project_name in project:
         
-        bucket_name = project_name + '-transfiles-in'
+        bucket_name = project_name + '-JLU-Bucket'
     
         try:
             createB(bucket_name,project_name)
